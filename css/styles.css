@@ -11474,19 +11474,19 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #000;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #ffef50;
+  border: 1px solid #ffef50;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000;
+  color: #ffef50;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -11523,7 +11523,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #000;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
