@@ -7959,7 +7959,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 240, 80, 0.5) !important;
 }
 
 .text-reset {
@@ -11576,7 +11576,7 @@ body {
   font-size: 5.0rem;
   line-height: 2.5rem;
   letter-spacing: 0.0rem;
-  color:#ffffff;
+  color:#ffef50;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
