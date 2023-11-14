@@ -11514,7 +11514,7 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 240, 80, 0.75);
+    color: rgba(255, 239, 0, 0.75);
   }
   #mainNav .nav-link:hover {
     color: #ffffff;
@@ -11576,7 +11576,7 @@ body {
   font-size: 5.0rem;
   line-height: 2.5rem;
   letter-spacing: 0.0rem;
-  color:#ffef50;
+  color:#ffef00;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
