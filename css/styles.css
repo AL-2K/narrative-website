@@ -11559,6 +11559,7 @@ body {
 
 .masthead {
   position: relative;
+  object-fit: contain;
   width: 100%;
   height: auto;
   min-height: 35rem;
@@ -11602,6 +11603,13 @@ body {
     max-width: 30rem;
     font-size: 1.25rem;
   }
+}
+@media (max-width: 729px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+
 }
 
 .about-section {
