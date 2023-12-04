@@ -630,6 +630,12 @@ progress {
   color: #6c757d;
 }
 
+.youtube-video {
+  aspect-ratio: 16/9;
+  width: 100%;
+  
+}
+
 .container,
 .container-fluid,
 .container-xxl,
