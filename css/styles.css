@@ -239,7 +239,7 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #ffef00;
   text-decoration: underline;
 }
 a:hover {
@@ -634,6 +634,17 @@ progress {
   aspect-ratio: 16/9;
   width: 100%;
   
+}
+
+div.scroll-container {
+  background-color: #000000;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
 }
 
 .container,
@@ -3039,13 +3050,13 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #64a19d;
+  color: #ffef00;
+  background-color: #0000007a;
   border-color: #64a19d;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #558985;
+  color: #000000;
+  background-color: #ffef00;
   border-color: #50817e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -6344,8 +6355,10 @@ textarea.form-control-lg {
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: #fff;
+  color: #ffef00;
   text-align: center;
+  background-color: #0000007a;
+  
 }
 
 .carousel-dark .carousel-control-prev-icon,
