@@ -243,7 +243,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #ffef00;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -7512,9 +7512,7 @@ textarea.form-control-lg {
   margin-top: 1rem !important;
 }
 
-.mt-4 {
-  margin-top: 1.5rem !important;
-}
+
 
 .mt-5 {
   margin-top: 3rem !important;
@@ -7954,6 +7952,11 @@ textarea.form-control-lg {
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-yellow {
+  --bs-text-opacity: 1;
+  color: #ffef00
 }
 
 .text-white {
