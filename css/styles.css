@@ -603,8 +603,9 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  aspect-ratio: 16/9;
 }
 
 .img-thumbnail {
